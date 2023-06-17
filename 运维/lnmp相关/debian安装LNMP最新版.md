@@ -14,4 +14,8 @@
    37  apt-get update
    38  apt-get install php8.2 php8.2-fpm php8.2-mysql php8.2-curl php8.2-gd php8.2-common  php8.2-mbstring  php8.2-xml
 
-##an
+##安装最新版MySQL
+   45  apt install software-properties-common dirmngr curl ca-certificates apt-transport-https
+   46  curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | sudo bash -s -- --mariadb-server-version="mariadb-11.0"
+   47  apt install mariadb-server
+
