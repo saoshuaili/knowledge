@@ -14,3 +14,4 @@
    37  apt-get update
    38  apt-get install php8.2 php8.2-fpm php8.2-mysql php8.2-curl php8.2-gd php8.2-common  php8.2-mbstring  php8.2-xml
 
+##an
